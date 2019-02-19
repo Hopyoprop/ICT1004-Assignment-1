@@ -949,13 +949,3 @@ function container_photo_height_init(){
 		$(".container-photo-height").height($(window).height() - $(".nav-type-2").height() - $(".footer-type-5").height() );
 	})(jQuery);
 }
-
-
-/* Style Switcher
--------------------------------------------------------*/
-
-$(".main-wrapper").after('<div id="customizer" class="s-close"><span class="corner"><i class="fa fa-cog"></i></span><div id="options" class="text-center"><a href="http://themeforest.net/item/afela-flexible-multipurpose-html5-template/14581951?ref=DeoThemes" class="btn btn-md btn-color mt-40 mb-40">Buy Afela Now</a><h6 class="uppercase">Select Demo</h6><ul class="demo-list clearfix"><li><a href="index.html" target="_blank"><img src="img/demos/multipage.jpg" alt=""></a></li><li><a href="index-onepage.html" target="_blank"><img src="img/demos/onepage.jpg" alt=""></a></li><li><a href="index-agency.html" target="_blank"><img src="img/demos/agency.jpg" alt=""></a></li><li><a href="index-shop.html" target="_blank"><img src="img/demos/shop.jpg" alt=""></a></li><li><a href="index-magazine.html" target="_blank"><img src="img/demos/magazine.jpg" alt=""></a></li><li><a href="index-photography.html" target="_blank"><img src="img/demos/photography.jpg" alt=""></a></li><li><a href="index-photography-2.html" target="_blank"><img src="img/demos/photography_2.jpg" alt=""></a></li><li><a href="index-photography-3.html" target="_blank"><img src="img/demos/photography_3.jpg" alt=""></a></li></ul></div></div>');
-
-$(".corner").on('click',function (){
-	$("#customizer").toggleClass("s-open");
-});
