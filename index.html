@@ -31,7 +31,10 @@
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
+    
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    
 </head>
 
 <body>
@@ -42,98 +45,18 @@
 			"Loading..."
 		</div>
 	</div>
+    
+    <div id="nav-placeholder">
 
-	<header class="nav-type-1">
+    </div>
 
-		<nav class="navbar navbar-static-top">
-			<div class="navigation">
-				<div class="container relative">
-
-					<form method="get" class="search-wrap">
-						<input type="search" class="form-control" placeholder="Type &amp; Hit Enter">
-					</form>
-
-					<div class="row">
-
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div> <!-- end navbar-header -->
-
-						<!-- Logo -->
-						<div class="logo-container">
-							<div class="logo-wrap">
-								<a href="index.html">
-									<img class="logo" src="img/logo.png" alt="Mei Heong Yuen" width="117">
-								</a>
-							</div>
-						</div>
-
-						<div class="col-md-9 nav-wrap right">
-							<div class="collapse navbar-collapse" id="navbar-collapse">
-
-								<ul class="nav navbar-nav navbar-right">
-
-									<li class="active">
-										<a href="index.html">Home</a>
-									</li>
-
-									<li>
-										<a href="about-us.html">About Us</a>
-									</li>
-
-                                    <li>
-										<a href="menu.html">Menu</a>
-									</li>
-                                    
-                                    <li>
-                                        <a href="location.html">Locations</a>
-                                    </li>
-                                                                        
-                                    <li class="dropdown">
-										<a href="#">Feature</a>
-										<ul class="dropdown-menu">
-											<li><a href="videos.html">Videos</a></li>
-											<li><a href="awards.html">Awards</a></li>
-											<li><a href="articles.html">Articles</a></li>
-                                            <li><a href="photos.html">Photo Gallery</a></li>
-										</ul>
-									</li>
-                                    
-                                    <li>
-                                        <a href="contact.html">Contact Us</a>
-                                    </li>
-                                    
-                                    
-									<li id="mobile-search" class="hidden-lg hidden-md">
-										<form method="get" class="mobile-search">
-											<input type="search" class="form-control" placeholder="Search...">
-											<button type="submit" class="search-button">
-												<i class="fa fa-search"></i>
-											</button>
-										</form>
-									</li>
-
-									<li>
-										<a href="#" class="nav-search">
-											<i class="fa fa-search search-trigger"></i>
-											<i class="fa fa-times search-close"></i>
-										</a>
-									</li>
-								</ul> <!-- end menu -->
-							</div> <!-- end collapse -->
-						</div> <!-- end col -->
-
-					</div> <!-- end row -->
-				</div> <!-- end container -->
-			</div> <!-- end navigation -->
-		</nav> <!-- end navbar -->
-	</header>
-
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+    
 	<div class="main-wrapper oh">
 
 		<section>
@@ -1010,7 +933,6 @@
 	</div> <!-- end main-wrapper -->
 
 	<!-- jQuery Scripts -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
