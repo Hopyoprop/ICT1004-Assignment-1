@@ -5721,7 +5721,16 @@ table th {
   height: 100%;
   vertical-align: middle;
 }
+#menu h1 {
+  margin: 0;
+  color:#121212;
+  font-size: 24px;
+}
 
+#menu a,
+#menu > .active {
+    color :#7a7a7a;
+}
 .title-text h1 {
   margin: 0;
   color: #fff;
