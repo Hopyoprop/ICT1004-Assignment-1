@@ -84,24 +84,33 @@
         <!-- end page title -->
         
         <section class="section-wrap">
-		<div class="container"> 
-                        
-                        <div class="row">
-                                <div class="col-12">
-                                        <h2 class="heading relative heading-small uppercase bottom-line style-2 left-align mt-50 mb-0">Articles</h2>
-                                        
-                                        <div class='article-select'>
-                                            
-                                            <a class="btn btn-lg btn-blue rounded" href='articles-excellence-award.html'>Singapore Excellence Award Article</a>
-                                            <a class="btn btn-lg btn-blue rounded" href='articles-singa-news-article.html'>Singa News Article</a>
+            <div class="container"> 
 
-
-                                </div>
-                        </div>
-                    
-           </div> 
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="heading relative heading-small uppercase bottom-line style-2 left-align mt-50 mb-0">Articles</h2>
+                            <div class='article-select'>
+                                <a class="btn btn-lg btn-blue rounded" href='articles-excellence-award.html'>Singapore Excellence Award Article</a>
+                                <a class="btn btn-lg btn-blue rounded" href='articles-singa-news-article.html'>Singa News Article</a>
+                            </div>
+                    </div>
+                </div>
+            </div> 
         </section>
     </div>
+
+    <!--Footer here -->
+    <script>
+    $(document).ready(function(){
+          $("#footer-placeholder").load("footer.html",function(){
+              $.getScript("js/scripts.js"); 
+          });
+        });
+    </script>
+            
+    <div id="footer-placeholder"></div>
+    <!-- end of footer -->
+
     
     <!-- jQuery Scripts -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

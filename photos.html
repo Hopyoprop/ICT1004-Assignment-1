@@ -145,6 +145,19 @@
         </section>
     </div>
     
+    <!--Footer here -->
+    <script>
+    $(document).ready(function(){
+          $("#footer-placeholder").load("footer.html",function(){
+              $.getScript("js/scripts.js"); 
+          });
+        });
+    </script>
+            
+    <div id="footer-placeholder"></div>
+    <!-- end of footer -->
+
+    
     <!-- jQuery Scripts -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
