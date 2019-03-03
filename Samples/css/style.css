@@ -6626,8 +6626,8 @@ textarea {
   border: 1px solid #e0e0e0;
   background-color: transparent;
   width: 100%;
-  margin-bottom: 16px;
-  padding: 0 16px;
+  margin-bottom: 10px;
+  padding: 0 10px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -6645,8 +6645,7 @@ textarea {
 
 textarea {
   height: auto;
-  padding: 8px 16px;
-  margin-bottom: 25px;
+  padding: 8px 10px;
 }
 
 input[type="text"]:focus,
@@ -6710,13 +6709,13 @@ select::-ms-expand {
 -------------------------------------------------------*/
 
 input[type="checkbox"] {
-  display: none;
+  display: lin;
 }
 
 input[type="checkbox"] + label:before {
   width: 17px;
   height: 17px;
-  background-color: #f0f0f0;
+  background-color: #121212;
   content: "";
   display: inline-block;
   font-size: 13px;
@@ -6858,4 +6857,8 @@ label {
   #customizer {
     display: none;
   }
+}
+
+.container-franchise{
+    word-wrap: normal;
 }
