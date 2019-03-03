@@ -119,7 +119,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <div class="container-franchise">
+                        <div class="row row-16">
                             <p>Interested in running a dessert business like ours?<br>
                                 Look no further!<br>
                                 We are always on the lookout to expand locally and overseas!<br>
@@ -128,37 +128,40 @@
                         <form id="contact-form" action="#">
 
                             <div class="row row-16">
-                                <div class="col-md-12 contact-location">
-                                    <label for="location">Which location/country are you interested in running the Mei Heong Yuen Dessert Franchise?*</label>
-                                    <input name="location" id="location" type="text" placeholder="Location/Country*">
-                                </div>
+                                <p>Which location/country are you interested in running the Mei Heong Yuen Dessert Franchise?*</p>
+                                <input name="location" id="location" type="text" placeholder="Location/Country*">
                             </div>
-                            <div class="row row-16 contact-rights">
-                                <label for="rights">Which type of rights are you interested in?*</label>
-                                <label class="checkbox-inline">
-                                    <input type="checkbox" name="rights" value="master"> Master Franchise
-                                </label>
-                                <label class="checkbox-inline">
-                                    <input type="checkbox" name="rights" value="area"> Area Franchise
-                                </label>
-                                <label class="checkbox-inline">
-                                    <input type="checkbox" name="rights" value="single"> Single-Unit Franchise
-                                </label>
+                            <div class="row row-16">
+                                <p>Which type of rights are you interested in?*</p>
+                                <ul class="checkboxes">
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox1" value="master">
+                                        <label for="checkbox1">Master Franchise</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox2" value="area">
+                                        <label for="checkbox2">Area Franchise</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox3" value="single">
+                                        <label for="checkbox3">Single-Unit Franchise</label>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="row row-16 contact-career-record">
-                                <label for="career-record">Current Occupation &amp; Brief Career Record*</label>
+                            <div class="row row-16">
+                                <p>Current Occupation &amp; Brief Career Record*</p>
                                 <textarea name="comment" id="comment" placeholder="Curent Occupation & Brief Career Record*" rows="3"></textarea>
                             </div>
-                            <div class="row row-16 contact-past-experience">
-                                <label for="past-experience">Do you have any past working experience in related trade? </label>
-                                <textarea name="comment" id="comment" placeholder="If Yes, please state" rows="3"></textarea>
+                            <div class="row row-16">
+                                <p>Do you have any past working experience in related trade? </p>
+                                <textarea name="comment" id="wokringexperience" placeholder="If Yes, please state" rows="3"></textarea>
                             </div>
-                            <div class="row row-16 contact-past-franchise">
-                                <label for="past-experience">Have you operated any franchise business? </label>
-                                <textarea name="comment" id="comment" placeholder="If yes, please state" rows="1"></textarea>
+                            <div class="row row-16">
+                                <p>Have you operated any franchise business? </p>
+                                <textarea name="comment" id="operated" placeholder="If Yes, please state" rows="1"></textarea>
                             </div>
-                                
-                             
+
+
                             <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
                             <div id="msg" class="message"></div>
                         </form>

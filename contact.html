@@ -91,48 +91,131 @@
                 <div class="row">
 
                     <div class="col-md-4 mb-40">
-                        <h5 class="uppercase">Information</h5>
+                        <h5 class="uppercase">Franchise</h5>
 
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="icon icon_house_alt"></i>
                             </div>
-                            <p>California CA<br>
-                                Afela inc.<br>
-                                Star Apple st. 54<br>
-                                62058</p>
+                            <p>Mei Heong Yuen Dessert<br>
+                                261 Pandan Loop<br>
+                                Singapore 128436</p>
                         </div> <!-- end address -->
 
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="icon icon_mobile"></i>
                             </div>
-                            <span>+1 888 5146 3269</span>
+                            <span>(+65) 6779 1156 </span>
                         </div> <!-- end phone number -->
 
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="icon icon_mail_alt"></i>
                             </div>
-                            <a href="mailto:afelasupport@gmail.com" class="dark-link">afelasupport@gmail.com</a>
+                            <a href="mailto:franchise@farmerpeanuts.com" class="dark-link">franchise@farmerpeanuts.com</a>
                         </div> <!-- end email -->
 
                     </div>
 
                     <div class="col-md-8">
+                        <div class="row row-16">
+                            <p>Interested in running a dessert business like ours?<br>
+                                Look no further!<br>
+                                We are always on the lookout to expand locally and overseas!<br>
+                                Do provide us some details using our <a href="http://www.meiheongyuendessert.com.sg/MHY%20-%20Franchise%20Enquiry%20Form%20MHYD.docx">Franchise Enquiry Form</a> below or download the form and email it to <a href="mailto:franchise@farmerpeanuts.com">franchise@farmerpeanuts.com</a>. You may also fax it to (65) 6779 3562.</p>
+                        </div>
                         <form id="contact-form" action="#">
 
                             <div class="row row-16">
-                                <div class="col-md-6 contact-name">
-                                    <input name="name" id="name" type="text" placeholder="Name*">
-                                </div>
-                                <div class="col-md-6 contact-email">
-                                    <input name="mail" id="mail" type="email" placeholder="E-mail*">
-                                </div>
+                                <p>Which location/country are you interested in running the Mei Heong Yuen Dessert Franchise?*</p>
+                                <input name="location" id="location" type="text" placeholder="Location/Country">
+                            </div>
+                            <div class="row row-16">
+                                <p>Which type of rights are you interested in?*</p>
+                                <ul class="checkboxes">
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox1" value="master">
+                                        <label for="checkbox1">Master Franchise</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox2" value="area">
+                                        <label for="checkbox2">Area Franchise</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="input-checkbox" name="checkbox" id="checkbox3" value="single">
+                                        <label for="checkbox3">Single-Unit Franchise</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row row-16">
+                                <p>Current Occupation &amp; Brief Career Record*</p>
+                                <textarea name="occupation" id="occupation" placeholder="Curent Occupation & Brief Career Record" rows="3"></textarea>
+                            </div>
+                            <div class="row row-16">
+                                <p>Do you have any past working experience in related trade? </p>
+                                <textarea name="workingexperience" id="workingexperience" placeholder="If Yes, please state" rows="3"></textarea>
+                            </div>
+                            <div class="row row-16">
+                                <p>Have you operated any franchise business? </p>
+                                <textarea name="operated" id="operated" placeholder="If Yes, please state" rows="1"></textarea>
+                            </div>
+                            
+                            <div class="row row-16">
+                                <p>Do you currently own or lease premises that may be suitable for Mei Heong Yuen Dessert? </p>
+                                <textarea name="premises" id="premises" placeholder="If Yes, please state" rows="1"></textarea> 
+                            </div>
+                            
+                            <div class="row row-16">
+                                <p>How familiar are you with franchising:  </p>
+                                <ul class="radio-buttons">
+                                    <li>
+                                        <input type="radio" class="input-radio" name="familiar" id="radio1" value="very">
+                                        <label for="radio1">Very</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="input-radio" name="familiar" id="radio2" value="fairly">
+                                        <label for="radio2">Fairly</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="input-radio" name="familiar" id="radio3" value="little">
+                                        <label for="radio3">Little</label>
+                                    </li>
+                                     <li>
+                                        <input type="radio" class="input-radio" name="familiar" id="radio4" value="not">
+                                        <label for="radio4">Not</label>
+                                    </li>
+                                </ul> 
                             </div>
 
-                            <textarea name="comment" id="comment" placeholder="Message" rows="9"></textarea>
-                            <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
+                            <div class="row row-16">
+                                <p>Please state the funds available for this business venture:  </p>
+                                <ul class="radio-buttons">
+                                    <li>
+                                        <input type="radio" class="input-radio" name="funds" id="radio5" value="less200000">
+                                        <label for="radio5">Less than SGD200,000</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="input-radio" name="funds" id="radio6" value="500000">
+                                        <label for="radio6">SGD200,001 – SGD 500,000</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="input-radio" name="funds" id="radio7" value="little">
+                                        <label for="radio7">SGD500,001 – SGD 1,000,000</label>
+                                    </li>
+                                     <li>
+                                        <input type="radio" class="input-radio" name="funds" id="radio8" value="not">
+                                        <label for="radio8">Above SGD 1,000,000</label>
+                                    </li>
+                                </ul> 
+                            </div> 
+                            
+                            <div class="row row-16">
+                                <p>Please list two main reasons why you wish to acquire the Mei Heong Yuen Dessert franchise? </p>
+                                <textarea name="reasons" id="reasons" placeholder="Two Reasons" rows="3"></textarea> 
+                            </div>                                                                                  
+
+                            <input type="submit" class="btn btn-lg btn-color btn-submit" value="Submit" id="submit-message">
                             <div id="msg" class="message"></div>
                         </form>
                     </div> <!-- end col -->
