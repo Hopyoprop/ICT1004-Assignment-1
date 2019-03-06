@@ -436,10 +436,13 @@
                                 </div>
                             </div>
                             <div class="row row-16">
+                                <div class="col-md-12">
                                 <p>Which location/country are you interested in running the Mei Heong Yuen Dessert Franchise?*</p>
                                 <input name="location" id="location" type="text" placeholder="Location/Country">
+                                </div>
                             </div>
                             <div class="row row-16">
+                                <div class="col-md-12">                               
                                 <p>Which type of rights are you interested in?*</p>
                                 <ul class="checkboxes">
                                     <li>
@@ -455,26 +458,36 @@
                                         <label for="checkbox3">Single-Unit Franchise</label>
                                     </li>
                                 </ul>
+                                </div>
                             </div>
                             <div class="row row-16">
+                                <div class="col-md-12">
                                 <p>Current Occupation &amp; Brief Career Record*</p>
                                 <textarea name="occupation" id="occupation" placeholder="Current Occupation & Brief Career Record" rows="3"></textarea>
+                                </div>
                             </div>
                             <div class="row row-16">
+                                <div class="col-md-12">
                                 <p>Do you have any past working experience in related trade? </p>
                                 <textarea name="workingexperience" id="workingexperience" placeholder="If Yes, please state" rows="3"></textarea>
+                                </div>
                             </div>
                             <div class="row row-16">
+                                 <div class="col-md-12">                              
                                 <p>Have you operated any franchise business? </p>
                                 <textarea name="operated" id="operated" placeholder="If Yes, please state" rows="1"></textarea>
+                                </div>
                             </div>
                             
                             <div class="row row-16">
+                                <div class="col-md-12">
                                 <p>Do you currently own or lease premises that may be suitable for Mei Heong Yuen Dessert? </p>
                                 <textarea name="premises" id="premises" placeholder="If Yes, please state" rows="1"></textarea> 
+                                </div>
                             </div>
                             
                             <div class="row row-16">
+                               <div class="col-md-12">
                                 <p>How familiar are you with franchising:  </p>
                                 <ul class="radio-buttons">
                                     <li>
@@ -494,9 +507,11 @@
                                         <label for="radio4">Not</label>
                                     </li>
                                 </ul> 
+                                </div>
                             </div>
 
                             <div class="row row-16">
+                                <div class="col-md-12">                               
                                 <p>Please state the funds available for this business venture:  </p>
                                 <ul class="radio-buttons">
                                     <li>
@@ -515,15 +530,38 @@
                                         <input type="radio" class="input-radio" name="funds" id="radio8" value="not">
                                         <label for="radio8">Above SGD 1,000,000</label>
                                     </li>
-                                </ul> 
+                                </ul>
+                                </div> 
                             </div> 
                             
                             <div class="row row-16">
+                                 <div class="col-md-12">                              
                                 <p>Please list two main reasons why you wish to acquire the Mei Heong Yuen Dessert franchise? </p>
                                 <textarea name="reasons" id="reasons" placeholder="Two Reasons" rows="3"></textarea> 
+                                </div>
                             </div>                                                                                  
+                            
+                            <!-- Button trigger modal -->
+								<a href="#" class="btn btn-md btn-dark mt-10" data-toggle="modal" data-target="#myModal">Submit</a>
 
-                            <input type="submit" class="btn btn-lg btn-color btn-submit" value="Submit">
+								<!-- Modal -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												<h4 class="modal-title" id="myModalLabel">Form Submit</h4>
+											</div>
+											<div class="modal-body">
+												<p>Are you sure you want to submit?</p>
+											</div>
+											<div class="modal-footer">
+												<a class="btn btn-md btn-light" data-dismiss="modal">Close</a>
+												<input type="submit" class="btn btn-md btn-color btn-submit" value="Submit">
+											</div>
+										</div>
+									</div>
+								</div> <!-- end modal -->
                         </form>
                     </div> <!-- end col -->
 
