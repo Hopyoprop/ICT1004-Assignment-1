@@ -54,8 +54,11 @@
         });
 
     </script>
-
+    
     <div id="nav-placeholder"></div>
+    
+    
+    
     <!-- End of Nav Bar -->
 
     <div class="main-wrapper oh">
@@ -100,7 +103,15 @@
 
                                 <div class="tab-pane fade in active" id="tab-one">
                                     <p>
-                                        <iframe src="https://docs.google.com/viewer?url=/pdf/MHY.pdf&embedded=true" frameborder="0" height="1000em" width="100%"></iframe>
+                                        <!--Script to reference local host-->
+                                        <script>
+
+                                        var docURL='https://docs.google.com/viewer?url=' + window.location.hostname + '/pdf/MHY.pdf&embedded=true';
+
+                                        document.write('<iframe id="iframe1" src="https://docs.google.com/viewer?url='+docURL+'" width="600" height="400" ></iframe>');
+                                        function go_to_page(varr) { document.getElementById("iframe1").setAttribute("src", docURL + '#:0.page.'+ (varr-1) );}
+
+                                        </script>
                                     </p>
                                 </div>
 
