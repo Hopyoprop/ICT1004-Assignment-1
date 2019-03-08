@@ -6436,6 +6436,16 @@ img.alignright { float: right; margin: 10px 0 10px 20px; }
   opacity: 0.9;
 }
 
+#socialtext {
+    display:inline;
+    color: #7a7a7a;
+    background-color:#121212;
+}
+#socialtext:hover {
+    color: #ffff;
+}
+
+
 .colored .social-twitter {background-color: #00acee;}
 .colored .social-facebook {background-color: #3b5998;}
 .colored .social-google-plus {background-color: #dd4b39;}
