@@ -108,9 +108,9 @@
                                         var href = window.location.href;
                                         var dir = href.substring(0, href.lastIndexOf('/'));
                                        
-                                        docURL='https://docs.google.com/viewer?url=' + dir + '/pdf/MHY.pdf&embedded=true';
+                                        docURL= dir + '/pdf/MHY.pdf&embedded=true';
                                         
-                                        document.write('<iframe id="iframe1" src="https://docs.google.com/viewer?url='+docURL+' width="600" height="400" ></iframe>');
+                                        document.write('<iframe id="iframe1" src="https://docs.google.com/viewer?url='+docURL+' width="100%" height="1000em" ></iframe>');
                                         function go_to_page(varr) { document.getElementById("iframe1").setAttribute("src", docURL + '#:0.page.'+ (varr-1) );}
 
                                         </script>
