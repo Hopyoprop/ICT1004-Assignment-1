@@ -20,7 +20,7 @@ more about franchise opportunity with the company.
 )
 
 ### Updated Webpage
-Available from view at: https://hopyoprop.github.io/ICT1004
+Available from view at: https://hopyoprop.github.io/ICT1004-Assignment-1/
 
 ## Technologies Used
 - Bootstrap
